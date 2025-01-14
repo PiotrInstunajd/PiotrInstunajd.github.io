@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+li {
+    list-style: square;
+    text-align: center;
+    
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    color:darkblue;
+}
+#job {
+    width: 250px;
+    border-radius: 50px;
+    text-align: center;
+    background-position: center;
+    background-color: aquamarine;
+}
+#stack {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px;
+    border-radius: 50px;
+    border-color: teal;
+    border-style: outset;
+    padding: 0%;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
