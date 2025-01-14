@@ -2,9 +2,8 @@ body {
     text-align: center;
     margin: auto;
 }
-li {
-    list-style: square;
-    text-align: center;
+.technologies {
+    text-align: justify;
     
 }
 p {
