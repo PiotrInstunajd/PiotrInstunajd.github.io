@@ -5,15 +5,31 @@ body {
     background-size: cover;
     background-position: center-top;
 }
+h1 {
+    text-align: left;
+    margin-left: 20px;
+}
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    margin-left: auto;
-    margin-right: auto;
     color:darkblue;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+a {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    display: flow-root;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
 }
 .technologies {
-    text-align: justify;
+    text-align: center;
+    list-style: none;
+    padding-top: 15px;
 }
 #job {
     width: 250px;
@@ -23,14 +39,11 @@ p {
     background-color: aquamarine;
 }
 #stack {
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 5px;
-    border-radius: 50px;
-    border-color: teal;
-    border-style: outset;
-    padding: 0%;
-    font-size: 20px;
+    background-color: aquamarine;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    margin: auto;
+    font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
