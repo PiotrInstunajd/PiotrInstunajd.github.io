@@ -7,9 +7,9 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 nav {
-    background-color:rgb(184, 123, 11) !important;
+    background-color: #8f6c56 !important;
     padding: 10px;
-    
+    word-spacing: 50px;
 }
 h1 {
     text-align: center;
@@ -21,10 +21,11 @@ p {
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    word-spacing: initial;
 }
 img {
     position: absolute;
-    top: 150%;
+    top: 135%;
     left: 45%;
     transform: translate(-50%, -50%);
     height: 250px;
