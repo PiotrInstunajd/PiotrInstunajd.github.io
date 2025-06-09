@@ -1,9 +1,9 @@
 body {
-    background:
-        url('noise.png'),
-        linear-gradient(135deg, #f5e9da 0%, #e2c6a6 40%, #b07d52 100%);
+    background: url('noise.png'); 
     background-size: 120px 120px, cover;
     background-repeat: repeat, no-repeat;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    color: #222;
 }
 
 h1 {
@@ -15,18 +15,21 @@ h1 {
 nav {
     padding: 10px;
     word-spacing: 50px;
+    background: linear-gradient(135deg, #f5e9da 0%, #e2c6a6 40%, #b07d52 100%);
+    border-radius: 5px;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    color: #222;    
 }
 
 p {
     margin: auto;
-    color: #333;
+    margin: 10px;    
 }
 
 a {
+    color: #222;
     text-decoration: none;
-    color: rgb(0, 0, 0);
     word-spacing: initial;
-    color: #2d1a06;
 }
 
 img {
@@ -46,10 +49,8 @@ img {
     animation: textDrop 1.5s ease-out;
     display: flex;
     flex-direction: row;
-    /* row for side-by-side */
     align-items: center;
     gap: 40px;
-    /* space between img and text */
 }
 
 .technologies {
