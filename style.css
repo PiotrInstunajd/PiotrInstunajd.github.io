@@ -94,3 +94,17 @@ img {
         opacity: 1;
     }
 }
+
+@media (max-width: 700px) {
+    .aboutMe {
+        flex-direction: column;
+        position: static;
+        transform: none;
+        width: 100%;
+        gap: 20px;
+    }
+    img {
+        margin: 0 auto;
+        height: 180px;
+    }
+}
