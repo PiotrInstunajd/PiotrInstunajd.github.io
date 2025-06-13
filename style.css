@@ -84,6 +84,42 @@ img {
     font-size: 25px;
 }
 
+.bubble-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100vw;
+    height: 80vh;
+    min-height: 400px;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle at 35% 35%, rgba(255,251,233,0.7) 60%, rgba(226,198,166,0,) 100%);
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(80, 50, 20, 0.25), 0 2px 8px rgba(80, 50, 20, 0.10) inset;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2d1a06;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: default;
+    user-select: none;
+    animation: floatBubble 3s ease-in-out infinite alternate;
+}
+
+.bubble:hover {
+    transform: scale(1.08) translateY(-8px);
+    box-shadow: 0 16px 32px rgba(80, 50, 20, 0.30), 0 2px 8px rgba(80, 50, 20, 0.15) inset;
+}
+
 @keyframes textDrop {
     0% {
         transform: translate(-50%, -80%);
@@ -94,6 +130,12 @@ img {
         transform: translate(-50%, -50%);
         opacity: 1;
     }
+}
+
+/* Floating animation */
+@keyframes floatBubble {
+    0%   { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
 
 @media (max-width: 700px) {
