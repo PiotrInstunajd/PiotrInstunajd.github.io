@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const rect = container.getBoundingClientRect();
                 let x = e.clientX - rect.left - offsetX;
                 let y = e.clientY - rect.top - offsetY;
-                // Clamp values
+                // Ensure bubble stays within the container
                 x = Math.max(0, Math.min(x, rect.width - bubble.offsetWidth));
                 y = Math.max(0, Math.min(y, rect.height - bubble.offsetHeight));
                 bubble.style.left = x + 'px';
